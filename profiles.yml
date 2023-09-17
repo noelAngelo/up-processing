@@ -1,0 +1,12 @@
+app:
+  target: dev
+  outputs:
+    dev:
+      type: trino
+      host: 1.tcp.au.ngrok.io
+      user: admin
+      password:
+      port: 26522
+      database: delta
+      schema: up
+      threads: 1
